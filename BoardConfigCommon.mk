@@ -166,3 +166,5 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit from the proprietary version
 include vendor/xiaomi/msm8953-common/BoardConfigVendor.mk
+# build broken 
+BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
